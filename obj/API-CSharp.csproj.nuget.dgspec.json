@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/cadepreister/Desktop/API-CSharp/API-CSharp.csproj": {}
+    "/Users/cadepreister/Desktop/CSharp-Lyric-Generator/API-CSharp.csproj": {}
   },
   "projects": {
-    "/Users/cadepreister/Desktop/API-CSharp/API-CSharp.csproj": {
+    "/Users/cadepreister/Desktop/CSharp-Lyric-Generator/API-CSharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/cadepreister/Desktop/API-CSharp/API-CSharp.csproj",
+        "projectUniqueName": "/Users/cadepreister/Desktop/CSharp-Lyric-Generator/API-CSharp.csproj",
         "projectName": "API-CSharp",
-        "projectPath": "/Users/cadepreister/Desktop/API-CSharp/API-CSharp.csproj",
+        "projectPath": "/Users/cadepreister/Desktop/CSharp-Lyric-Generator/API-CSharp.csproj",
         "packagesPath": "/Users/cadepreister/.nuget/packages/",
-        "outputPath": "/Users/cadepreister/Desktop/API-CSharp/obj/",
+        "outputPath": "/Users/cadepreister/Desktop/CSharp-Lyric-Generator/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/cadepreister/.nuget/NuGet/NuGet.Config"
