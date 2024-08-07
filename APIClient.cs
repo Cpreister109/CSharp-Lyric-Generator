@@ -9,13 +9,23 @@ namespace tswiftLyricGen {
     public static async Task Main(string[] args) {
 
       var api = new APISetup();
-      await api.CollectLyrics("{Billy Joel}/{Piano man}");
+      string userPick = userMusic();
+      await api.CollectLyrics(userPick);
 
     }
 
-    public static string whichArtist() {
+    public static string userMusic() {
 
-      return "";
+      Console.ForegroundColor = ConsoleColor.Blue;
+      Console.WriteLine("Which artist would you like to choose?");
+      string? userArtist = Console.ReadLine();
+      Console.WriteLine($"Nice! I love {userArtist} too! What is your favorite song?");
+      string? userSong = Console.ReadLine();
+      Console.WriteLine($"I know that one by heart!");
+      Console.ForegroundColor = ConsoleColor.White;
+
+
+      return $"{{{userArtist}}}/{{{userSong}}}";
     }
   }
 
