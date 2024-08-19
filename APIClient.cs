@@ -52,7 +52,7 @@ namespace tswiftLyricGen {
             }
             else
             {
-              Console.WriteLine("No lyrics found in the response!");
+              Console.WriteLine("No lyrics found in the response!?");
             }
         }
       }
